@@ -1,11 +1,14 @@
 # BE-e-Commerce-Web
-[![Github License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Github License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
+<br>
+Video:(https://drive.google.com/file/d/1zugWFsJ8206_X0NGYeKlTYX7BcmQ3Luq/view?usp=sharing)<br>
 
 ## Project Description
 Build the back end for an e-commerce site, for a working Express.js API to use Sequelize to interact for a MySQL database.
 
 ## Table of Contents
 - [Installation](#installation)
+- [Seeding](#seeding)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
@@ -19,9 +22,16 @@ To install necessary dependencies, run the following command:
 npm i
 ```
 
+
+## Seeding
+To seed the database, run the following command:
+```
+npm run seed
+```
+
   
 ## Usage
-NOTHING FOR NOW
+This is a back end of a e-commerce site that uses sequelize to interacts with a MySQL database. In order to really run the code, everything will done using either Insomnia or Postman. Routes have been written to GET all or one products, all or one tag, all or one category. to CREATE new products, tags and category. To UPDATE product, tag and category and to DELETE product, tag and category
 
   
 ## License
