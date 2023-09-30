@@ -64,5 +64,18 @@ If you have any questions about the repo, open an issue or contact me directly a
 
 ## Screenshots
 <!-- Add screenshots here -->
-<img src="path_to_screenshot_image_1" alt="Screenshot 1">
-<img src="path_to_screenshot_image_2" alt="Screenshot 2">
+<img src="./Assets/01.png" alt="Screenshot 01">
+<img src="./Assets/02.png" alt="Screenshot 02">
+<img src="./Assets/03.png" alt="Screenshot 03">
+<img src="./Assets/04.png" alt="Screenshot 04">
+<img src="./Assets/05.png" alt="Screenshot 05">
+<img src="./Assets/06.png" alt="Screenshot 06">
+<img src="./Assets/07.png" alt="Screenshot 07">
+<img src="./Assets/08.png" alt="Screenshot 08">
+<img src="./Assets/09.png" alt="Screenshot 09">
+<img src="./Assets/10.png" alt="Screenshot 10">
+<img src="./Assets/11.png" alt="Screenshot 11">
+<img src="./Assets/12.png" alt="Screenshot 12">
+<img src="./Assets/13.png" alt="Screenshot 13">
+<img src="./Assets/14.png" alt="Screenshot 14">
+<img src="./Assets/15.png" alt="Screenshot 15">
