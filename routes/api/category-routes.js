@@ -83,15 +83,26 @@ router.put('/:id', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => {
-  // delete a category by its `id` value
-  Category.destroy({
-    where: {
-      id: req.params.id
+  // Check if the category has associated products
+  Product.update(
+    { category_id: null }, // or set it to a different category_id
+    {
+      where: {
+        category_id: req.params.id
+      }
     }
-  })
+  )
+    .then(() => {
+      // Now that products are disassociated, you can safely delete the category
+      return Category.destroy({
+        where: {
+          id: req.params.id
+        }
+      });
+    })
     .then(dbCatData => {
-      if (!dbCatData){
-        res.status(404).json({message: 'No category found for this id'});
+      if (!dbCatData) {
+        res.status(404).json({ message: 'No category found for this id' });
         return;
       }
       res.json(dbCatData);
